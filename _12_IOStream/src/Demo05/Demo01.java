@@ -17,10 +17,10 @@ public class Demo01 {
 
 		try (
 				// 2、获取文件中的数据。按行获取，选择BufferedReader
-				BufferedReader br = new BufferedReader(new FileReader("./沁园春长沙乱序"));
+				BufferedReader br = new BufferedReader(new FileReader("_12_IOStream/src/Demo05/沁园春长沙乱序"));
 
 				// 5、创建沁园春长沙文件，准备将集合中的内容写入
-				BufferedWriter bw = new BufferedWriter(new FileWriter("./《沁园春长沙》.txt"));
+				BufferedWriter bw = new BufferedWriter(new FileWriter("_12_IOStream/src/Demo05/《沁园春长沙》.txt"));
 			) {
 			// 3、按行读取文件内容，添加到集合中去
 			String line;
