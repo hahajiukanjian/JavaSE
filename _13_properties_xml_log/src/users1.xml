@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<users>
+    <user>
+        <name>丁永涛</name>
+        <sex>男</sex>
+        <age>22</age>
+        <地址>山东省青岛市</地址>
+        <data>
+            <![CDATA[
+                2 > 123 && 2 < 1
+            ]]>
+        </data>
+    </user>
+    <user>
+        <name>陈家斌</name>
+        <sex>男</sex>
+        <age>2</age>
+        <地址>山东省德州市</地址>
+        <data>
+            <![CDATA[
+                2 > 123 && 2 < 1
+            ]]>
+        </data>
+    </user>
+</users>
